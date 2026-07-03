@@ -1,0 +1,36 @@
+formulario.html>html> body form
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Formularios</title>
+</head>
+<body>
+  <form method="GET" action="Resposta.html">
+     <label for="txt_nome">Nome:</label>
+     <input type="text" name="txt_nome"><br>
+     <label for="rb_sexo">Sexo:</label>
+     <input type="radio" name="rb_sexo" value="M" checked/>
+     Masculino
+     <input type="radio" name="rb_sexo" value="F"/>
+     Feminino
+     <input type="radio" name="rb_sexo" value="0"/>
+     Outros
+     <br>
+     <label for="cb_carro">Tenho Carro Proprio</label>
+     <input type="checkbox" value="S"/>
+     <br>
+     <label for="sel_uf">UF</label>
+     <select name="sel_uf">
+     <option value="MG"> Minas gerais</option>
+     <option value="RJ"> Rio de Janeiro</option>
+     </select>
+     <input type="submit" value="Enviar">
+     <input type="reset" value="Limpar">
+  </form>
+  <fieldset>
+    <legend>Aviso</legend>
+    <p>Preencha os paragrafos!</p>
+  </fieldset>
+</body>
+</html>
