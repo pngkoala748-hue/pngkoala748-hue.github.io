@@ -1,0 +1,25 @@
+#coluna01 {
+    background-color: blue;
+    top: 120px;
+    left: 200px;
+    width: 150px;
+    height: 100;
+    position: absolute
+    
+}
+#coluna02 {
+    background-color: violet;
+    top: 120px;
+    left: 300px;
+    width: 150px;
+    height: 100;
+    position: absolute
+}
+#coluna03 {
+    background-color: greenyellow;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    width: 150px;
+    height: 100;
+}
