@@ -1,0 +1,471 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f2f7ff;
+
+    color:#222;
+
+}
+
+
+/* ==========================
+   CABEÇALHO
+========================== */
+
+
+header{
+
+    background:#e63946;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+
+header h1{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ==========================
+   MENU
+========================== */
+
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:#222;
+
+    background:#ffcb05;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.4s;
+
+}
+
+
+nav a:hover{
+
+    background:#2a75bb;
+
+    color:white;
+
+    transform:translateY(-4px);
+
+}
+
+
+
+/* ==========================
+   TÍTULO DA NOTÍCIA
+========================== */
+
+
+.titulo{
+
+    background:
+
+    linear-gradient(
+        120deg,
+        #2a75bb,
+        #e63946
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+
+.titulo h2{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+
+.titulo p{
+
+    font-size:22px;
+
+}
+
+
+
+/* ==========================
+   NOTÍCIA
+========================== */
+
+
+main{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+
+.noticia{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.2);
+
+}
+
+
+.noticia h1{
+
+    text-align:center;
+
+    color:#e63946;
+
+    margin-bottom:30px;
+
+    font-size:35px;
+
+}
+
+
+.noticia h2{
+
+    margin-top:40px;
+
+    margin-bottom:20px;
+
+    color:#2a75bb;
+
+}
+
+
+.noticia p{
+
+    line-height:2;
+
+    font-size:18px;
+
+    text-align:justify;
+
+}
+
+
+
+/* ==========================
+   TIMES POKÉMON
+========================== */
+
+
+.time{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin:30px 0;
+
+}
+
+
+
+.pokemon{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.2);
+
+    border-top:8px solid #ffcb05;
+
+    transition:.4s;
+
+}
+
+
+
+.pokemon:hover{
+
+    transform:translateY(-10px);
+
+    background:#ffcb05;
+
+}
+
+
+.pokemon h3{
+
+    color:#e63946;
+
+    margin-bottom:15px;
+
+}
+
+
+.pokemon p{
+
+    text-align:center;
+
+    font-size:16px;
+
+}
+
+
+
+/* ==========================
+   BATALHA FINAL
+========================== */
+
+
+.batalha{
+
+    margin-top:50px;
+
+    padding:35px;
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #ffcb05,
+        #fff
+    );
+
+    border-radius:25px;
+
+    box-shadow:
+
+    0 8px 20px rgba(0,0,0,.2);
+
+}
+
+
+.batalha h2{
+
+    text-align:center;
+
+    color:#222;
+
+}
+
+
+.batalha p{
+
+    margin-top:20px;
+
+}
+
+
+
+/* ==========================
+   ANIMAÇÃO
+========================== */
+
+
+@keyframes brilho{
+
+
+0%{
+
+box-shadow:
+
+0 0 5px #ffcb05;
+
+}
+
+
+50%{
+
+box-shadow:
+
+0 0 25px #ffcb05;
+
+}
+
+
+100%{
+
+box-shadow:
+
+0 0 5px #ffcb05;
+
+}
+
+
+}
+
+
+
+.pokemon:hover{
+
+    animation:brilho 1s infinite;
+
+}
+
+
+
+/* ==========================
+   RODAPÉ
+========================== */
+
+
+footer{
+
+    background:#2a75bb;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+}
+
+
+
+/* ==========================
+   RESPONSIVIDADE
+========================== */
+
+
+@media(max-width:900px){
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+.titulo h2{
+
+    font-size:32px;
+
+}
+
+
+.noticia{
+
+    padding:25px;
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+nav{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+.titulo{
+
+    padding:45px 15px;
+
+}
+
+
+.titulo h2{
+
+    font-size:25px;
+
+}
+
+
+.noticia h1{
+
+    font-size:25px;
+
+}
+
+
+.noticia p{
+
+    font-size:15px;
+
+}
+
+
+.time{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
