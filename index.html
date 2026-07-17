@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title> Página inicial!</title>
-    </head>
-    <body>
-        <p>Ola!</p>
-        <p>Seja bem vindo ao meu site!</p>
-        <p><img src="imagem_aluno.jpeg"
-            width= "300" height="300"/></p>
-        <p><a href="curriculo.html">curriculo</a></p>
-        <p>Não deixe de acressar meu curriculo!</p>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Navegação Principal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hub de Aplicações Web</h1>
+        <p>Selecione uma das soluções abaixo para navegar entre os módulos do sistema</p>
+    </header>
+
+    <div class="grid-container">
+        <a href="curriculo.html" class="card cv-curriculo">
+            <div class="card-banner"></div>
+            <div class="card-body">
+                <div>
+                    <h2>Currículo Inteligente</h2>
+                    <p>Portfólio profissional otimizado com base em métricas atuais de empregabilidade e ATS.</p>
+                </div>
+                <div class="btn">Acessar Módulo</div>
+            </div>
+        </a>
+
+        <a href="falecomigo.html" class="card cv-contato">
+            <div class="card-banner"></div>
+            <div class="card-body">
+                <div>
+                    <h2>Central de Contato</h2>
+                    <p>Formulário dinâmico de captação de leads e mensagens com validação de dados estruturada.</p>
+                </div>
+                <div class="btn">Falar Comigo</div>
+            </div>
+        </a>
+
+        <a href="copadomundo.html" class="card cv-copa">
+            <div class="card-banner"></div>
+            <div class="card-body">
+                <div>
+                    <h2>Painel Copa do Mundo</h2>
+                    <p>Gerenciador esportivo estruturado por fases da competição com adição dinâmica de times.</p>
+                </div>
+                <div class="btn">Ver Torneio</div>
+            </div>
+        </a>
+    </div>
+
+</body>
 </html>

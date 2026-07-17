@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0fdfa;
+    color: #1e293b;
+    margin: 0;
+    padding: 40px 20px;
+}
+.resume-container {
+    max-width: 850px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 245, 212, 0.1);
+    overflow: hidden;
+    border-top: 8px solid #00f5d4;
+}
+.resume-header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 40px;
+}
+.resume-header h1 { margin: 0; font-size: 2.2rem; color: #00f5d4; }
+.resume-header p { margin: 5px 0 0 0; color: #94a3b8; font-size: 1.1rem; }
+.main-content { padding: 40px; }
+.section-title-cv {
+    font-size: 1.3rem;
+    color: #0f172a;
+    border-bottom: 2px solid #00f5d4;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.xp-item { margin-bottom: 20px; }
+.xp-header { display: flex; justify-content: space-between; font-weight: bold; color: #0f172a; }
+.xp-company { color: #00bbf9; }
+.xp-desc { margin: 8px 0 0 0; color: #475569; font-size: 0.95rem; line-height: 1.6; }
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+.skill-tag {
+    background-color: #ccfbf1;
+    color: #115e59;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+.back-link { display: inline-block; margin-top: 30px; color: #00bbf9; text-decoration: none; font-weight: bold; }

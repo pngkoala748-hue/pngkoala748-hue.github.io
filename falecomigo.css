@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff5f8;
+    color: #2b2d42;
+    margin: 0;
+    padding: 40px 20px;
+}
+.form-container {
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(255, 0, 127, 0.08);
+    padding: 40px;
+    border-left: 6px solid #ff007f;
+}
+h2 { margin-top: 0; color: #ff007f; font-size: 1.8rem; }
+p { color: #6c757d; margin-bottom: 30px; }
+.form-group { margin-bottom: 20px; }
+label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem; }
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus, select:focus { outline: none; border-color: #ff007f; }
+textarea { resize: vertical; min-height: 120px; }
+.submit-btn {
+    background-color: #ff007f;
+    color: #ffffff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+.submit-btn:hover { background-color: #ff52a0; }
+.back-btn { display: block; text-align: center; margin-top: 20px; color: #6c757d; text-decoration: none; }
